@@ -1,0 +1,20 @@
+/* Main Menu */
+.link-menu {
+    color: white;
+}
+
+.link-menu:hover {
+    color: #acaaaa;
+}
+
+/* Logo */
+.logo-img {
+    height: 50px;
+    width: auto;
+    margin-left: 25%;
+    margin-top: 5%;
+}
+
+body {
+    background-color: #445c7a;
+}
