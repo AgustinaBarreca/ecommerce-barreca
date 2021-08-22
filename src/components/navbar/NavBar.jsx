@@ -1,4 +1,4 @@
-import "../../styles/NavBar.css";
+import "./NavBar.css";
 import {Nav, Navbar} from 'react-bootstrap';
 
 // assets 
@@ -21,6 +21,7 @@ function NavBar() {
       <Navbar.Brand href="#"> <img src={logo} alt="sweet-home-logo" className="logo-img"/> </Navbar.Brand>
       <Navbar.Toggle />
       <Navbar.Collapse className="justify-content-end">
+        <Nav.Link href="#home" className="link-menu">Blusas</Nav.Link>
         <Nav.Link href="#home" className="link-menu">Remeras</Nav.Link>
         <Nav.Link href="#home" className="link-menu">Pantalones</Nav.Link>
         <Nav.Link href="#home" className="link-menu">Camperas</Nav.Link>
